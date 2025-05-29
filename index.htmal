@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leal Serviços</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header, footer {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .servico {
+      margin-bottom: 30px;
+    }
+    .servico h3 {
+      color: #00ffcc;
+    }
+    .contato {
+      background-color: #111;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .contato p {
+      font-size: 1.2em;
+    }
+    .icon {
+      margin-right: 10px;
+    .contato {
+      background-color: #111;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .contato p {
+      font-size: 1.2em;
+    }
+    }
+    a.contato-link {
+      color: #00ffcc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Leal Serviços</h1>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Seu notebook como novo</h2>
+    <p>Atendimento em Belo Horizonte e Região. Trabalhamos com formatação, upgrades, limpezas internas e externas.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <div class="servico">
+      <h3>💻 Formatação de Notebooks e Computadores</h3>
+      <p>Deixe seu sistema limpo, rápido e pronto para uso.</p>
+    </div>
+    <div class="servico">
+      <h3>🔧 Upgrade de Hardware (RAM, SSD)</h3>
+      <p>Melhore o desempenho da sua máquina com atualizações de memória e armazenamento.</p>
+    </div>
+    <div class="servico">
+      <h3>🧰 Limpeza Interna com Troca de Pasta Térmica</h3>
+      <p>Evite superaquecimento e aumente a vida útil do seu notebook.</p>
+    </div>
+    <div class="servico">
+      <h3>🧽 Limpeza Externa</h3>
+      <p>Seu equipamento como novo por fora também.</p>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <p><span class="icon">📞</span> <a class="contato-link" href="https://wa.me/5531975339583" target="_blank">(31) 97533-9583</a></p>
+    <p><span class="icon">📷</span> <a class="contato-link" href="https://instagram.com/SuportePCNotebookBH" target="_blank">@SuportePCNotebookBH</a></p>
+    <p>Mande uma mensagem e faça seu orçamento!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Leal Serviços - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
